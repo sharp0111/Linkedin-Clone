@@ -1,0 +1,29 @@
+.CardList {
+    width: 880px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list__heading {
+    border: 1px solid gray;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-flow: wrap;
+}
+
+.personal__card {
+    width: 180;
+    height: 256;
+    border: 1px solid grey;
+}
+
+.personal__card img {
+    width: 200px;
+    border-radius: 49.5%;
+}
