@@ -80,4 +80,6 @@ const postData = [
     }
 ];
 
-export default postData;
+export const getData = () => postData;
+
+// export default postData;
