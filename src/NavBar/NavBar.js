@@ -7,7 +7,7 @@ class NavBar extends Component {
 
 	render() {
 		return (
-			<nav className="NavBar">
+			<nav>
                 <img src={linkedinLogo} alt="LinkedIn logo" height="46" width="46"></img>
 				<input className="NavBarSearch-field" type="text" onChange={this.submitFilter} placeholder="&#x1F50D; Search"></input>
                 

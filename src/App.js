@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import NavBar from './NavBar/NavBar';
+import LeftRail from './LeftRail/LeftRail';
 import Card from './Card/Card';
 
 import postData from './data.js';
@@ -14,8 +15,8 @@ class App extends Component {
       <div className='app__container'>
         <NavBar />
         <div className='body__container'>
-          {/* <LeftRail />
-          <Card />
+          <LeftRail />
+          {/* <Card />
           <Banner /> */}
         </div>
       </div>
